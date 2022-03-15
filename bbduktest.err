@@ -1,0 +1,100 @@
+java -ea -Xmx32g -Xms32g -cp /mnt/lustrefs/work/gregory.chorak/prog/bbmap/current/ jgi.BBDuk -Xmx32g t=16 in1=G21_R_1.fq in2=G21_R_2.fq out1=G21_RR_1_ARduked.fq out2=G21_RR_2_ARduked.fq ref=/mnt/lustrefs/work/gregory.chorak/prog/bbmap/resources/adapters.fa ktrim=r k=31 hdist=1 tpe tbo
+Executing jgi.BBDuk [-Xmx32g, t=16, in1=G21_R_1.fq, in2=G21_R_2.fq, out1=G21_RR_1_ARduked.fq, out2=G21_RR_2_ARduked.fq, ref=/mnt/lustrefs/work/gregory.chorak/prog/bbmap/resources/adapters.fa, ktrim=r, k=31, hdist=1, tpe, tbo]
+Version 38.37
+
+Set threads to 16
+0.217 seconds.
+Initial:
+Memory: max=32928m, total=32928m, free=32241m, used=687m
+
+Added 266247 kmers; time: 	0.459 seconds.
+Memory: max=32928m, total=32928m, free=31038m, used=1890m
+
+Input is being processed as paired
+Started output streams:	0.076 seconds.
+Processing time:   		156.587 seconds.
+
+Input:                  	86733340 reads 		13010001000 bases.
+KTrimmed:               	611486 reads (0.71%) 	32557966 bases (0.25%)
+Trimmed by overlap:     	1147714 reads (1.32%) 	18829708 bases (0.14%)
+Total Removed:          	19996 reads (0.02%) 	51387674 bases (0.39%)
+Result:                 	86713344 reads (99.98%) 	12958613326 bases (99.61%)
+
+Time:                         	157.125 seconds.
+Reads Processed:      86733k 	552.00k reads/sec
+Bases Processed:      13010m 	82.80m bases/sec
+java -ea -Xmx32g -Xms32g -cp /mnt/lustrefs/work/gregory.chorak/prog/bbmap/current/ jgi.BBDuk -Xmx32g t=16 in1=G30_R_1.fq in2=G30_R_2.fq out1=G30_RR_1_ARduked.fq out2=G30_RR_2_ARduked.fq ref=/mnt/lustrefs/work/gregory.chorak/prog/bbmap/resources/adapters.fa ktrim=r k=31 hdist=1 tpe tbo
+Executing jgi.BBDuk [-Xmx32g, t=16, in1=G30_R_1.fq, in2=G30_R_2.fq, out1=G30_RR_1_ARduked.fq, out2=G30_RR_2_ARduked.fq, ref=/mnt/lustrefs/work/gregory.chorak/prog/bbmap/resources/adapters.fa, ktrim=r, k=31, hdist=1, tpe, tbo]
+Version 38.37
+
+Set threads to 16
+0.097 seconds.
+Initial:
+Memory: max=32928m, total=32928m, free=32241m, used=687m
+
+Added 266247 kmers; time: 	0.167 seconds.
+Memory: max=32928m, total=32928m, free=31382m, used=1546m
+
+Input is being processed as paired
+Started output streams:	0.025 seconds.
+Processing time:   		199.710 seconds.
+
+Input:                  	101078512 reads 		15161776800 bases.
+KTrimmed:               	792514 reads (0.78%) 	40911112 bases (0.27%)
+Trimmed by overlap:     	1601694 reads (1.58%) 	24608322 bases (0.16%)
+Total Removed:          	20474 reads (0.02%) 	65519434 bases (0.43%)
+Result:                 	101058038 reads (99.98%) 	15096257366 bases (99.57%)
+
+Time:                         	199.905 seconds.
+Reads Processed:        101m 	505.63k reads/sec
+Bases Processed:      15161m 	75.84m bases/sec
+java -ea -Xmx32g -Xms32g -cp /mnt/lustrefs/work/gregory.chorak/prog/bbmap/current/ jgi.BBDuk -Xmx32g t=16 in1=G36_R_1.fq in2=G36_R_2.fq out1=G36_RR_1_ARduked.fq out2=G36_RR_2_ARduked.fq ref=/mnt/lustrefs/work/gregory.chorak/prog/bbmap/resources/adapters.fa ktrim=r k=31 hdist=1 tpe tbo
+Executing jgi.BBDuk [-Xmx32g, t=16, in1=G36_R_1.fq, in2=G36_R_2.fq, out1=G36_RR_1_ARduked.fq, out2=G36_RR_2_ARduked.fq, ref=/mnt/lustrefs/work/gregory.chorak/prog/bbmap/resources/adapters.fa, ktrim=r, k=31, hdist=1, tpe, tbo]
+Version 38.37
+
+Set threads to 16
+0.035 seconds.
+Initial:
+Memory: max=32928m, total=32928m, free=32241m, used=687m
+
+Added 266247 kmers; time: 	0.170 seconds.
+Memory: max=32928m, total=32928m, free=31038m, used=1890m
+
+Input is being processed as paired
+Started output streams:	0.043 seconds.
+Processing time:   		188.573 seconds.
+
+Input:                  	90059528 reads 		13508929200 bases.
+KTrimmed:               	634666 reads (0.70%) 	32952654 bases (0.24%)
+Trimmed by overlap:     	1281968 reads (1.42%) 	20457160 bases (0.15%)
+Total Removed:          	16614 reads (0.02%) 	53409814 bases (0.40%)
+Result:                 	90042914 reads (99.98%) 	13455519386 bases (99.60%)
+
+Time:                         	188.789 seconds.
+Reads Processed:      90059k 	477.04k reads/sec
+Bases Processed:      13508m 	71.56m bases/sec
+java -ea -Xmx32g -Xms32g -cp /mnt/lustrefs/work/gregory.chorak/prog/bbmap/current/ jgi.BBDuk -Xmx32g t=16 in1=G48_R_1.fq in2=G48_R_2.fq out1=G48_RR_1_ARduked.fq out2=G48_RR_2_ARduked.fq ref=/mnt/lustrefs/work/gregory.chorak/prog/bbmap/resources/adapters.fa ktrim=r k=31 hdist=1 tpe tbo
+Executing jgi.BBDuk [-Xmx32g, t=16, in1=G48_R_1.fq, in2=G48_R_2.fq, out1=G48_RR_1_ARduked.fq, out2=G48_RR_2_ARduked.fq, ref=/mnt/lustrefs/work/gregory.chorak/prog/bbmap/resources/adapters.fa, ktrim=r, k=31, hdist=1, tpe, tbo]
+Version 38.37
+
+Set threads to 16
+0.027 seconds.
+Initial:
+Memory: max=32928m, total=32928m, free=32241m, used=687m
+
+Added 266247 kmers; time: 	0.134 seconds.
+Memory: max=32928m, total=32928m, free=31038m, used=1890m
+
+Input is being processed as paired
+Started output streams:	0.011 seconds.
+Processing time:   		178.882 seconds.
+
+Input:                  	96663358 reads 		14499503700 bases.
+KTrimmed:               	724132 reads (0.75%) 	37551562 bases (0.26%)
+Trimmed by overlap:     	1407014 reads (1.46%) 	22200664 bases (0.15%)
+Total Removed:          	19978 reads (0.02%) 	59752226 bases (0.41%)
+Result:                 	96643380 reads (99.98%) 	14439751474 bases (99.59%)
+
+Time:                         	179.029 seconds.
+Reads Processed:      96663k 	539.93k reads/sec
+Bases Processed:      14499m 	80.99m bases/sec

@@ -1,0 +1,424 @@
+java -ea -Xmx32g -cp /mnt/lustrefs/work/gregory.chorak/prog/bbmap/current/ align2.BBMap build=1 overwrite=true fastareadlen=500 minid=0.95 maxindel=3 bwr=0.16 bw=12 quickmatch fast minhits=2 path=/mnt/lustrefs/store/gregory.chorak/RefData qtrim=rl trimq=10 untrim -Xmx32g in=G21_RR_1_cleancat.fq outu=G21_RR_1_cleanhumcatdog.fq outm=G21_RR_1_dogcon.fa
+Executing align2.BBMap [tipsearch=20, maxindel=80, minhits=2, bwr=0.18, bw=40, minratio=0.65, midpad=150, minscaf=50, quickmatch=t, rescuemismatches=15, rescuedist=800, maxsites=3, maxsites2=100, build=1, overwrite=true, fastareadlen=500, minid=0.95, maxindel=3, bwr=0.16, bw=12, quickmatch, minhits=2, path=/mnt/lustrefs/store/gregory.chorak/RefData, qtrim=rl, trimq=10, untrim, -Xmx32g, in=G21_RR_1_cleancat.fq, outu=G21_RR_1_cleanhumcatdog.fq, outm=G21_RR_1_dogcon.fa]
+Version 38.37
+
+Set MINIMUM_ALIGNMENT_SCORE_RATIO to 0.650
+Retaining first best site only for ambiguous mappings.
+Set MINIMUM_ALIGNMENT_SCORE_RATIO to 0.908
+Set genome to 1
+
+Loaded Reference:	5.057 seconds.
+Loading index for chunk 1-5, build 1
+Generated Index:	20.041 seconds.
+Analyzed Index:   	7.988 seconds.
+Started output stream:	0.354 seconds.
+Started output stream:	0.001 seconds.
+Cleared Memory:    	1.821 seconds.
+Processing reads in single-ended mode.
+Started read stream.
+Started 2 mapping threads.
+Detecting finished threads: 0, 1
+
+   ------------------   Results   ------------------   
+
+Genome:                	1
+Key Length:            	13
+Max Indel:             	3
+Minimum Score Ratio:  	0.9081
+Mapping Mode:         	normal
+Reads Used:           	43324216	(6474269600 bases)
+
+Mapping:          	4940.827 seconds.
+Reads/sec:       	8768.62
+kBases/sec:      	1310.36
+
+
+Read 1 data:      	pct reads	num reads 	pct bases	   num bases
+
+mapped:          	  0.0006% 	      243 	  0.0005% 	       32670
+unambiguous:     	  0.0003% 	      144 	  0.0003% 	       19754
+ambiguous:       	  0.0002% 	       99 	  0.0002% 	       12916
+low-Q discards:  	  0.0001% 	       48 	  0.0000% 	         624
+
+perfect best site:	  0.0001% 	       35 	  0.0000% 	        3165
+semiperfect site:	  0.0001% 	       36 	  0.0001% 	        3271
+
+Match Rate:      	      NA 	       NA 	 97.6370% 	       31898
+Error Rate:      	  0.0345% 	      207 	  2.3508% 	         768
+Sub Rate:        	  0.0345% 	      207 	  2.3477% 	         767
+Del Rate:        	  0.0000% 	        0 	  0.0000% 	           0
+Ins Rate:        	  0.0002% 	        1 	  0.0031% 	           1
+N Rate:          	  0.0002% 	        1 	  0.0122% 	           4
+
+Total time:     	4976.257 seconds.
+java -ea -Xmx32g -cp /mnt/lustrefs/work/gregory.chorak/prog/bbmap/current/ align2.BBMap build=1 overwrite=true fastareadlen=500 minid=0.95 maxindel=3 bwr=0.16 bw=12 quickmatch fast minhits=2 path=/mnt/lustrefs/store/gregory.chorak/RefData qtrim=rl trimq=10 untrim -Xmx32g in=G21_RR_2_cleancat.fq outu=G21_RR_2_cleanhumcatdog.fq outm=G21_RR_2_dogcon.fa
+Executing align2.BBMap [tipsearch=20, maxindel=80, minhits=2, bwr=0.18, bw=40, minratio=0.65, midpad=150, minscaf=50, quickmatch=t, rescuemismatches=15, rescuedist=800, maxsites=3, maxsites2=100, build=1, overwrite=true, fastareadlen=500, minid=0.95, maxindel=3, bwr=0.16, bw=12, quickmatch, minhits=2, path=/mnt/lustrefs/store/gregory.chorak/RefData, qtrim=rl, trimq=10, untrim, -Xmx32g, in=G21_RR_2_cleancat.fq, outu=G21_RR_2_cleanhumcatdog.fq, outm=G21_RR_2_dogcon.fa]
+Version 38.37
+
+Set MINIMUM_ALIGNMENT_SCORE_RATIO to 0.650
+Retaining first best site only for ambiguous mappings.
+Set MINIMUM_ALIGNMENT_SCORE_RATIO to 0.908
+Set genome to 1
+
+Loaded Reference:	5.047 seconds.
+Loading index for chunk 1-5, build 1
+Generated Index:	20.429 seconds.
+Analyzed Index:   	7.806 seconds.
+Started output stream:	0.032 seconds.
+Started output stream:	0.001 seconds.
+Cleared Memory:    	1.905 seconds.
+Processing reads in single-ended mode.
+Started read stream.
+Started 2 mapping threads.
+Detecting finished threads: 0, 1
+
+   ------------------   Results   ------------------   
+
+Genome:                	1
+Key Length:            	13
+Max Indel:             	3
+Minimum Score Ratio:  	0.9081
+Mapping Mode:         	normal
+Reads Used:           	43324822	(6429121330 bases)
+
+Mapping:          	5063.444 seconds.
+Reads/sec:       	8556.39
+kBases/sec:      	1269.71
+
+
+Read 1 data:      	pct reads	num reads 	pct bases	   num bases
+
+mapped:          	  0.0005% 	      205 	  0.0004% 	       27494
+unambiguous:     	  0.0002% 	      103 	  0.0002% 	       13929
+ambiguous:       	  0.0002% 	      102 	  0.0002% 	       13565
+low-Q discards:  	  0.9572% 	   414712 	  0.3870% 	    24880152
+
+perfect best site:	  0.0001% 	       22 	  0.0000% 	        1739
+semiperfect site:	  0.0001% 	       24 	  0.0000% 	        1995
+
+Match Rate:      	      NA 	       NA 	 97.4976% 	       26806
+Error Rate:      	  0.0300% 	      181 	  2.4442% 	         672
+Sub Rate:        	  0.0300% 	      181 	  2.4442% 	         672
+Del Rate:        	  0.0000% 	        0 	  0.0000% 	           0
+Ins Rate:        	  0.0000% 	        0 	  0.0000% 	           0
+N Rate:          	  0.0003% 	        2 	  0.0582% 	          16
+
+Total time:     	5098.790 seconds.
+java -ea -Xmx32g -cp /mnt/lustrefs/work/gregory.chorak/prog/bbmap/current/ align2.BBMap build=1 overwrite=true fastareadlen=500 minid=0.95 maxindel=3 bwr=0.16 bw=12 quickmatch fast minhits=2 path=/mnt/lustrefs/store/gregory.chorak/RefData qtrim=rl trimq=10 untrim -Xmx32g in=G30_RR_1_cleancat.fq outu=G30_RR_1_cleanhumcatdog.fq outm=G30_RR_1_dogcon.fa
+Executing align2.BBMap [tipsearch=20, maxindel=80, minhits=2, bwr=0.18, bw=40, minratio=0.65, midpad=150, minscaf=50, quickmatch=t, rescuemismatches=15, rescuedist=800, maxsites=3, maxsites2=100, build=1, overwrite=true, fastareadlen=500, minid=0.95, maxindel=3, bwr=0.16, bw=12, quickmatch, minhits=2, path=/mnt/lustrefs/store/gregory.chorak/RefData, qtrim=rl, trimq=10, untrim, -Xmx32g, in=G30_RR_1_cleancat.fq, outu=G30_RR_1_cleanhumcatdog.fq, outm=G30_RR_1_dogcon.fa]
+Version 38.37
+
+Set MINIMUM_ALIGNMENT_SCORE_RATIO to 0.650
+Retaining first best site only for ambiguous mappings.
+Set MINIMUM_ALIGNMENT_SCORE_RATIO to 0.908
+Set genome to 1
+
+Loaded Reference:	4.735 seconds.
+Loading index for chunk 1-5, build 1
+Generated Index:	18.784 seconds.
+Analyzed Index:   	8.193 seconds.
+Started output stream:	0.042 seconds.
+Started output stream:	0.001 seconds.
+Cleared Memory:    	1.978 seconds.
+Processing reads in single-ended mode.
+Started read stream.
+Started 2 mapping threads.
+Detecting finished threads: 0, 1
+
+   ------------------   Results   ------------------   
+
+Genome:                	1
+Key Length:            	13
+Max Indel:             	3
+Minimum Score Ratio:  	0.9081
+Mapping Mode:         	normal
+Reads Used:           	50517804	(7546185258 bases)
+
+Mapping:          	5716.427 seconds.
+Reads/sec:       	8837.30
+kBases/sec:      	1320.09
+
+
+Read 1 data:      	pct reads	num reads 	pct bases	   num bases
+
+mapped:          	  0.0002% 	      102 	  0.0002% 	       13403
+unambiguous:     	  0.0001% 	       44 	  0.0001% 	        6335
+ambiguous:       	  0.0001% 	       58 	  0.0001% 	        7068
+low-Q discards:  	  0.0001% 	       61 	  0.0000% 	         793
+
+perfect best site:	  0.0000% 	       17 	  0.0000% 	         826
+semiperfect site:	  0.0000% 	       17 	  0.0000% 	         826
+
+Match Rate:      	      NA 	       NA 	 97.4633% 	       13063
+Error Rate:      	  0.0102% 	       85 	  2.5367% 	         340
+Sub Rate:        	  0.0102% 	       85 	  2.5367% 	         340
+Del Rate:        	  0.0000% 	        0 	  0.0000% 	           0
+Ins Rate:        	  0.0000% 	        0 	  0.0000% 	           0
+N Rate:          	  0.0000% 	        0 	  0.0000% 	           0
+
+Total time:     	5750.298 seconds.
+java -ea -Xmx32g -cp /mnt/lustrefs/work/gregory.chorak/prog/bbmap/current/ align2.BBMap build=1 overwrite=true fastareadlen=500 minid=0.95 maxindel=3 bwr=0.16 bw=12 quickmatch fast minhits=2 path=/mnt/lustrefs/store/gregory.chorak/RefData qtrim=rl trimq=10 untrim -Xmx32g in=G30_RR_2_cleancat.fq outu=G30_RR_2_cleanhumcatdog.fq outm=G30_RR_2_dogcon.fa
+Executing align2.BBMap [tipsearch=20, maxindel=80, minhits=2, bwr=0.18, bw=40, minratio=0.65, midpad=150, minscaf=50, quickmatch=t, rescuemismatches=15, rescuedist=800, maxsites=3, maxsites2=100, build=1, overwrite=true, fastareadlen=500, minid=0.95, maxindel=3, bwr=0.16, bw=12, quickmatch, minhits=2, path=/mnt/lustrefs/store/gregory.chorak/RefData, qtrim=rl, trimq=10, untrim, -Xmx32g, in=G30_RR_2_cleancat.fq, outu=G30_RR_2_cleanhumcatdog.fq, outm=G30_RR_2_dogcon.fa]
+Version 38.37
+
+Set MINIMUM_ALIGNMENT_SCORE_RATIO to 0.650
+Retaining first best site only for ambiguous mappings.
+Set MINIMUM_ALIGNMENT_SCORE_RATIO to 0.908
+Set genome to 1
+
+Loaded Reference:	5.033 seconds.
+Loading index for chunk 1-5, build 1
+Generated Index:	20.004 seconds.
+Analyzed Index:   	8.005 seconds.
+Started output stream:	0.062 seconds.
+Started output stream:	0.001 seconds.
+Cleared Memory:    	2.016 seconds.
+Processing reads in single-ended mode.
+Started read stream.
+Started 2 mapping threads.
+Detecting finished threads: 0, 1
+
+   ------------------   Results   ------------------   
+
+Genome:                	1
+Key Length:            	13
+Max Indel:             	3
+Minimum Score Ratio:  	0.9081
+Mapping Mode:         	normal
+Reads Used:           	50518194	(7493966432 bases)
+
+Mapping:          	5594.395 seconds.
+Reads/sec:       	9030.14
+kBases/sec:      	1339.55
+
+
+Read 1 data:      	pct reads	num reads 	pct bases	   num bases
+
+mapped:          	  0.0002% 	       94 	  0.0002% 	       12009
+unambiguous:     	  0.0001% 	       41 	  0.0001% 	        5658
+ambiguous:       	  0.0001% 	       53 	  0.0001% 	        6351
+low-Q discards:  	  0.9458% 	   477786 	  0.3825% 	    28663614
+
+perfect best site:	  0.0000% 	       19 	  0.0000% 	         998
+semiperfect site:	  0.0000% 	       19 	  0.0000% 	         998
+
+Match Rate:      	      NA 	       NA 	 97.7017% 	       11733
+Error Rate:      	  0.0090% 	       75 	  2.2983% 	         276
+Sub Rate:        	  0.0090% 	       75 	  2.2983% 	         276
+Del Rate:        	  0.0000% 	        0 	  0.0000% 	           0
+Ins Rate:        	  0.0000% 	        0 	  0.0000% 	           0
+N Rate:          	  0.0000% 	        0 	  0.0000% 	           0
+
+Total time:     	5629.696 seconds.
+java -ea -Xmx32g -cp /mnt/lustrefs/work/gregory.chorak/prog/bbmap/current/ align2.BBMap build=1 overwrite=true fastareadlen=500 minid=0.95 maxindel=3 bwr=0.16 bw=12 quickmatch fast minhits=2 path=/mnt/lustrefs/store/gregory.chorak/RefData qtrim=rl trimq=10 untrim -Xmx32g in=G36_RR_1_cleancat.fq outu=G36_RR_1_cleanhumcatdog.fq outm=G36_RR_1_dogcon.fa
+Executing align2.BBMap [tipsearch=20, maxindel=80, minhits=2, bwr=0.18, bw=40, minratio=0.65, midpad=150, minscaf=50, quickmatch=t, rescuemismatches=15, rescuedist=800, maxsites=3, maxsites2=100, build=1, overwrite=true, fastareadlen=500, minid=0.95, maxindel=3, bwr=0.16, bw=12, quickmatch, minhits=2, path=/mnt/lustrefs/store/gregory.chorak/RefData, qtrim=rl, trimq=10, untrim, -Xmx32g, in=G36_RR_1_cleancat.fq, outu=G36_RR_1_cleanhumcatdog.fq, outm=G36_RR_1_dogcon.fa]
+Version 38.37
+
+Set MINIMUM_ALIGNMENT_SCORE_RATIO to 0.650
+Retaining first best site only for ambiguous mappings.
+Set MINIMUM_ALIGNMENT_SCORE_RATIO to 0.908
+Set genome to 1
+
+Loaded Reference:	5.030 seconds.
+Loading index for chunk 1-5, build 1
+Generated Index:	20.622 seconds.
+Analyzed Index:   	6.898 seconds.
+Started output stream:	0.156 seconds.
+Started output stream:	0.001 seconds.
+Cleared Memory:    	1.920 seconds.
+Processing reads in single-ended mode.
+Started read stream.
+Started 2 mapping threads.
+Detecting finished threads: 0, 1
+
+   ------------------   Results   ------------------   
+
+Genome:                	1
+Key Length:            	13
+Max Indel:             	3
+Minimum Score Ratio:  	0.9081
+Mapping Mode:         	normal
+Reads Used:           	45014440	(6726452925 bases)
+
+Mapping:          	5030.127 seconds.
+Reads/sec:       	8948.97
+kBases/sec:      	1337.23
+
+
+Read 1 data:      	pct reads	num reads 	pct bases	   num bases
+
+mapped:          	  0.0002% 	       83 	  0.0002% 	       10427
+unambiguous:     	  0.0001% 	       42 	  0.0001% 	        5302
+ambiguous:       	  0.0001% 	       41 	  0.0001% 	        5125
+low-Q discards:  	  0.0001% 	       46 	  0.0000% 	         598
+
+perfect best site:	  0.0000% 	       12 	  0.0000% 	         745
+semiperfect site:	  0.0000% 	       13 	  0.0000% 	         895
+
+Match Rate:      	      NA 	       NA 	 97.6791% 	       10185
+Error Rate:      	  0.0078% 	       70 	  2.2250% 	         232
+Sub Rate:        	  0.0078% 	       70 	  2.2250% 	         232
+Del Rate:        	  0.0000% 	        0 	  0.0000% 	           0
+Ins Rate:        	  0.0000% 	        0 	  0.0000% 	           0
+N Rate:          	  0.0002% 	        2 	  0.0959% 	          10
+
+Total time:     	5065.025 seconds.
+java -ea -Xmx32g -cp /mnt/lustrefs/work/gregory.chorak/prog/bbmap/current/ align2.BBMap build=1 overwrite=true fastareadlen=500 minid=0.95 maxindel=3 bwr=0.16 bw=12 quickmatch fast minhits=2 path=/mnt/lustrefs/store/gregory.chorak/RefData qtrim=rl trimq=10 untrim -Xmx32g in=G36_RR_2_cleancat.fq outu=G36_RR_2_cleanhumcatdog.fq outm=G36_RR_2_dogcon.fa
+Executing align2.BBMap [tipsearch=20, maxindel=80, minhits=2, bwr=0.18, bw=40, minratio=0.65, midpad=150, minscaf=50, quickmatch=t, rescuemismatches=15, rescuedist=800, maxsites=3, maxsites2=100, build=1, overwrite=true, fastareadlen=500, minid=0.95, maxindel=3, bwr=0.16, bw=12, quickmatch, minhits=2, path=/mnt/lustrefs/store/gregory.chorak/RefData, qtrim=rl, trimq=10, untrim, -Xmx32g, in=G36_RR_2_cleancat.fq, outu=G36_RR_2_cleanhumcatdog.fq, outm=G36_RR_2_dogcon.fa]
+Version 38.37
+
+Set MINIMUM_ALIGNMENT_SCORE_RATIO to 0.650
+Retaining first best site only for ambiguous mappings.
+Set MINIMUM_ALIGNMENT_SCORE_RATIO to 0.908
+Set genome to 1
+
+Loaded Reference:	4.820 seconds.
+Loading index for chunk 1-5, build 1
+Generated Index:	28.512 seconds.
+Analyzed Index:   	8.042 seconds.
+Started output stream:	0.128 seconds.
+Started output stream:	0.001 seconds.
+Cleared Memory:    	2.023 seconds.
+Processing reads in single-ended mode.
+Started read stream.
+Started 2 mapping threads.
+Detecting finished threads: 0, 1
+
+   ------------------   Results   ------------------   
+
+Genome:                	1
+Key Length:            	13
+Max Indel:             	3
+Minimum Score Ratio:  	0.9081
+Mapping Mode:         	normal
+Reads Used:           	45014665	(6679788964 bases)
+
+Mapping:          	4280.241 seconds.
+Reads/sec:       	10516.85
+kBases/sec:      	1560.61
+
+
+Read 1 data:      	pct reads	num reads 	pct bases	   num bases
+
+mapped:          	  0.0002% 	       88 	  0.0002% 	       11291
+unambiguous:     	  0.0001% 	       47 	  0.0001% 	        6428
+ambiguous:       	  0.0001% 	       41 	  0.0001% 	        4863
+low-Q discards:  	  0.9501% 	   427666 	  0.3841% 	    25657545
+
+perfect best site:	  0.0000% 	       15 	  0.0000% 	        1197
+semiperfect site:	  0.0000% 	       16 	  0.0000% 	        1347
+
+Match Rate:      	      NA 	       NA 	 97.5644% 	       11016
+Error Rate:      	  0.0080% 	       72 	  2.3204% 	         262
+Sub Rate:        	  0.0080% 	       72 	  2.3204% 	         262
+Del Rate:        	  0.0000% 	        0 	  0.0000% 	           0
+Ins Rate:        	  0.0000% 	        0 	  0.0000% 	           0
+N Rate:          	  0.0001% 	        1 	  0.1151% 	          13
+
+Total time:     	4324.008 seconds.
+java -ea -Xmx32g -cp /mnt/lustrefs/work/gregory.chorak/prog/bbmap/current/ align2.BBMap build=1 overwrite=true fastareadlen=500 minid=0.95 maxindel=3 bwr=0.16 bw=12 quickmatch fast minhits=2 path=/mnt/lustrefs/store/gregory.chorak/RefData qtrim=rl trimq=10 untrim -Xmx32g in=G48_RR_1_cleancat.fq outu=G48_RR_1_cleanhumcatdog.fq outm=G48_RR_1_dogcon.fa
+Executing align2.BBMap [tipsearch=20, maxindel=80, minhits=2, bwr=0.18, bw=40, minratio=0.65, midpad=150, minscaf=50, quickmatch=t, rescuemismatches=15, rescuedist=800, maxsites=3, maxsites2=100, build=1, overwrite=true, fastareadlen=500, minid=0.95, maxindel=3, bwr=0.16, bw=12, quickmatch, minhits=2, path=/mnt/lustrefs/store/gregory.chorak/RefData, qtrim=rl, trimq=10, untrim, -Xmx32g, in=G48_RR_1_cleancat.fq, outu=G48_RR_1_cleanhumcatdog.fq, outm=G48_RR_1_dogcon.fa]
+Version 38.37
+
+Set MINIMUM_ALIGNMENT_SCORE_RATIO to 0.650
+Retaining first best site only for ambiguous mappings.
+Set MINIMUM_ALIGNMENT_SCORE_RATIO to 0.908
+Set genome to 1
+
+Loaded Reference:	4.380 seconds.
+Loading index for chunk 1-5, build 1
+Generated Index:	18.373 seconds.
+Analyzed Index:   	6.222 seconds.
+Started output stream:	0.080 seconds.
+Started output stream:	0.001 seconds.
+Cleared Memory:    	1.970 seconds.
+Processing reads in single-ended mode.
+Started read stream.
+Started 2 mapping threads.
+Detecting finished threads: 0, 1
+
+   ------------------   Results   ------------------   
+
+Genome:                	1
+Key Length:            	13
+Max Indel:             	3
+Minimum Score Ratio:  	0.9081
+Mapping Mode:         	normal
+Reads Used:           	48293851	(7215491699 bases)
+
+Mapping:          	4374.285 seconds.
+Reads/sec:       	11040.40
+kBases/sec:      	1649.52
+
+
+Read 1 data:      	pct reads	num reads 	pct bases	   num bases
+
+mapped:          	  0.0005% 	      251 	  0.0005% 	       34223
+unambiguous:     	  0.0003% 	      148 	  0.0003% 	       20732
+ambiguous:       	  0.0002% 	      103 	  0.0002% 	       13491
+low-Q discards:  	  0.0001% 	       64 	  0.0000% 	         832
+
+perfect best site:	  0.0001% 	       33 	  0.0000% 	        2608
+semiperfect site:	  0.0001% 	       34 	  0.0000% 	        2746
+
+Match Rate:      	      NA 	       NA 	 97.5601% 	       33388
+Error Rate:      	  0.0255% 	      217 	  2.4048% 	         823
+Sub Rate:        	  0.0255% 	      217 	  2.4048% 	         823
+Del Rate:        	  0.0000% 	        0 	  0.0000% 	           0
+Ins Rate:        	  0.0000% 	        0 	  0.0000% 	           0
+N Rate:          	  0.0001% 	        1 	  0.0351% 	          12
+
+Total time:     	4405.518 seconds.
+java -ea -Xmx32g -cp /mnt/lustrefs/work/gregory.chorak/prog/bbmap/current/ align2.BBMap build=1 overwrite=true fastareadlen=500 minid=0.95 maxindel=3 bwr=0.16 bw=12 quickmatch fast minhits=2 path=/mnt/lustrefs/store/gregory.chorak/RefData qtrim=rl trimq=10 untrim -Xmx32g in=G48_RR_2_cleancat.fq outu=G48_RR_2_cleanhumcatdog.fq outm=G48_RR_2_dogcon.fa
+Executing align2.BBMap [tipsearch=20, maxindel=80, minhits=2, bwr=0.18, bw=40, minratio=0.65, midpad=150, minscaf=50, quickmatch=t, rescuemismatches=15, rescuedist=800, maxsites=3, maxsites2=100, build=1, overwrite=true, fastareadlen=500, minid=0.95, maxindel=3, bwr=0.16, bw=12, quickmatch, minhits=2, path=/mnt/lustrefs/store/gregory.chorak/RefData, qtrim=rl, trimq=10, untrim, -Xmx32g, in=G48_RR_2_cleancat.fq, outu=G48_RR_2_cleanhumcatdog.fq, outm=G48_RR_2_dogcon.fa]
+Version 38.37
+
+Set MINIMUM_ALIGNMENT_SCORE_RATIO to 0.650
+Retaining first best site only for ambiguous mappings.
+Set MINIMUM_ALIGNMENT_SCORE_RATIO to 0.908
+Set genome to 1
+
+Loaded Reference:	4.096 seconds.
+Loading index for chunk 1-5, build 1
+Generated Index:	24.303 seconds.
+Analyzed Index:   	6.245 seconds.
+Started output stream:	0.131 seconds.
+Started output stream:	0.001 seconds.
+Cleared Memory:    	1.958 seconds.
+Processing reads in single-ended mode.
+Started read stream.
+Started 2 mapping threads.
+Detecting finished threads: 0, 1
+
+   ------------------   Results   ------------------   
+
+Genome:                	1
+Key Length:            	13
+Max Indel:             	3
+Minimum Score Ratio:  	0.9081
+Mapping Mode:         	normal
+Reads Used:           	48294450	(7164897183 bases)
+
+Mapping:          	4415.238 seconds.
+Reads/sec:       	10938.13
+kBases/sec:      	1622.77
+
+
+Read 1 data:      	pct reads	num reads 	pct bases	   num bases
+
+mapped:          	  0.0005% 	      233 	  0.0004% 	       31328
+unambiguous:     	  0.0003% 	      134 	  0.0003% 	       18724
+ambiguous:       	  0.0002% 	       99 	  0.0002% 	       12604
+low-Q discards:  	  0.9601% 	   463698 	  0.3883% 	    27818480
+
+perfect best site:	  0.0001% 	       32 	  0.0000% 	        2157
+semiperfect site:	  0.0001% 	       33 	  0.0000% 	        2295
+
+Match Rate:      	      NA 	       NA 	 97.5741% 	       30568
+Error Rate:      	  0.0235% 	      200 	  2.3621% 	         740
+Sub Rate:        	  0.0235% 	      200 	  2.3621% 	         740
+Del Rate:        	  0.0000% 	        0 	  0.0000% 	           0
+Ins Rate:        	  0.0000% 	        0 	  0.0000% 	           0
+N Rate:          	  0.0002% 	        2 	  0.0638% 	          20
+
+Total time:     	4452.140 seconds.
