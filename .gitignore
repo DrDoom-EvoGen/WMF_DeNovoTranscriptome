@@ -1,1 +1,13 @@
 results/*
+
+*.pdf
+
+*.RDS
+
+*.jpeg
+
+*.png
+
+*.dmg
+
+trinotate/*
