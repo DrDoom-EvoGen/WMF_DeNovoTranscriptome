@@ -11,3 +11,5 @@ results/*
 *.dmg
 
 trinotate/*
+
+DS_Store
