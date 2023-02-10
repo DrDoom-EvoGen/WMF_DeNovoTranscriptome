@@ -17,6 +17,8 @@
 
 Manuscript published at: https://doi.org/10.1016/j.aquabot.2023.103631 
 
-Transcriptome available at: doi:10.5061/-dryad.547d7wmcx
+Transcriptome available at: https://datadryad.org/stash/dataset/doi:10.5061/dryad.547d7wmcx
+
+
 
 
